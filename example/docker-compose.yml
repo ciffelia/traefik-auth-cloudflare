@@ -16,7 +16,7 @@ services:
     container_name: traefik
 
   traefik-auth-cloudflare:
-    image: akohlbecker/traefik-auth-cloudflare
+    image: ciffelia/traefik-auth-cloudflare
     restart: always
     expose:
       - 8080
